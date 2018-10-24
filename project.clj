@@ -8,4 +8,5 @@
                  [hiccup "1.0.0"]]
   :plugins [[lein-ring "0.7.1"]]
   :ring {:handler app-for-deploy.routes/app
-         :open-browser? false})
+         :open-browser? false
+         :port 8000})
